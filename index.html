@@ -1,0 +1,162 @@
+><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Jun ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="stars"></div>
+
+<!-- PASSWORD PAGE -->
+
+<section id="passwordPage" class="page active">
+
+<div class="glass">
+
+<h1>💙</h1>
+
+<h2>Only Someone Special Can Enter</h2>
+
+<p>What's your nickname?</p>
+
+<input
+type="text"
+id="password"
+placeholder="Enter your nickname">
+
+<button onclick="checkPassword()">
+
+Unlock My Heart ❤️
+
+</button>
+
+<p id="error"></p>
+
+</div>
+
+</section>
+
+<!-- WELCOME PAGE -->
+
+<section id="welcomePage" class="page">
+
+<h1>Welcome Home, <span>Jun ❤️</span></h1>
+
+<p>Your Sun has been waiting for you...</p>
+
+<button onclick="goToEnvelope()">
+
+Continue 💌
+
+</button>
+
+</section>
+
+<!-- ENVELOPE -->
+
+<section id="envelopePage" class="page">
+
+<div class="envelope-container" onclick="openLetter()">
+
+<div class="envelope">
+
+<div class="letter-preview">
+
+</div>
+
+<div class="flap"></div>
+
+</div>
+
+<p>Click the envelope </p>
+
+</div>
+
+</section>
+
+<!-- LETTER -->
+
+<section id="letterPage" class="page">
+
+<h1>To My Dearest Jun ❤️</h1>
+
+<p id="typing"></p>
+
+<button onclick="goToGallery()">
+
+Our Memories 📸
+
+</button>
+
+</section>
+
+<!-- GALLERY -->
+
+<section id="galleryPage" class="page">
+
+<h1>Our Memories ❤️</h1>
+
+<div class="gallery">
+
+<img src="images/photo1.jpg">
+
+<img src="images/photo2.jpg">
+
+<img src="images/photo3.jpg">
+
+<img src="images/photo4.jpg">
+
+<img src="images/photo5.jpg">
+
+<img src="images/photo6.jpg">
+
+</div>
+
+<button onclick="goToEnding()">
+
+One Last Click ❤️
+
+</button>
+
+</section>
+
+<!-- ENDING -->
+
+<section id="endingPage" class="page">
+
+<h1>
+
+I will love you forever and ever Jun.
+
+</h1>
+
+<h2>
+
+Your Sun ❤️
+
+Forever & Always
+
+</h2>
+
+</section>
+
+<audio id="song" loop>
+
+<source src="music/song.mp3" type="audio/mp3">
+
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
